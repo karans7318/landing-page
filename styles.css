@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --navy-blue: #1F2937;
+    --white: white;
+    --secondary-text-color: #E5E7EB;
+    --secondary-text-font-size: 18px;
+    --button-color: #3882F6;
+}
+
+ .section1, .section2, .section3, footer {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) fixed, 
+    url(images/nikeshoes.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; 
+    color: #f9faf8;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    height: 100vh;
+}
+.section1{
+    background-color: var(--navy-blue);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-opening{
+    width: 800px;
+    padding-top: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.header-links ul{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.header-links a{
+    text-decoration: none;
+    color: orange;
+}
+.header-links button{
+    width: 100px;
+    height: 35px;
+    background-color: var(--button-color);
+    color: var(--white);
+    border: solid white 2px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+.header-links button:hover{
+    cursor: pointer;
+}
+
+.intro-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 40px;
+}
+
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-size: var(--main);
+    gap: 10px;
+}
+.intro-text button{
+    width: 100px;
+    height: 35px;
+    background-color: var(--button-color);
+    color: var(--white);
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.intro-text button:hover{
+    cursor: pointer;
+}
+
+/* placeholder img */
+.img-element{
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    text-align: center;
+    flex: 1;
+}
+
+
+
+
+
+/* Part 2 Information */
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+/* .section2-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
+.information-container{
+    display: flex;
+    gap: 40px;
+    padding-top: 40px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+}
+.pizza{
+    width: 100px;
+    height: 100px;
+    border: #3882F6 5px solid;
+    border-radius: 20px;
+}
+
+
+
+/* Section 3 QUOTE */
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    padding: 100px;
+    
+}
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 800px;
+}
+
+
+footer{
+    text-align: center;
+    background-color: var(--navy-blue);
+    color: var(--white);
+    padding: 10px;
+}
+
+/* Section 4 Call to Action */
+
+.section4{
+    display: flex;
+    justify-content: center;
+}
+
+.action-container{
+    background-color: var(--button-color);
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 50px;
+}
+
+.action-container button{
+    width: 100px;
+    height: 35px;
+    background-color: var(--button-color);
+    color: var(--white);
+    border: solid white 2px;
+    border-radius: 20px;
+}
+.action-container button:hover {
+    cursor: pointer;
+}
